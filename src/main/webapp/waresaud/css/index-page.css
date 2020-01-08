@@ -1,0 +1,364 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+button{
+    border: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1{
+	font-weight:normal;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	font: 12px/1.5 Arial,Verdana;
+}
+
+.w{
+	width: 990px;
+	margin: 0 auto;
+}
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.clearfix{
+	zoom: 1;
+}
+
+.header{
+	height: 80px;
+	/*background: #bfa;*/
+    position: relative;
+}
+
+.header .logo {
+	display: block;
+	width: 170px;
+	height: 60px;
+	background: url("../img/logo.jpg") no-repeat;
+	margin: 10px 0 0 0;
+}
+
+.header .q{
+	padding: 1px 0 1px 24px;
+	background: url("../img/q-icon.png") no-repeat;
+	color: #999;
+	font: 12px/1 Arial;
+	float: right;
+	margin: 54px 0 0;
+}
+
+.header .q:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+.header h1 p{
+    width: 110px;
+    height: 40px;
+    color: #3a3a3a;
+	font: 24px/1 微软雅黑;
+    position: absolute;
+    top: 34px;
+    left: 195px;
+}
+
+.notice{
+	height: 40px;
+	background: #fff8f0;
+}
+
+.notice .tips{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url("../img/icon-tips.png");
+	margin: 12px 0 0 100px;
+	vertical-align: top;
+}
+
+.notice .notice-content{
+	display: inline-block;
+	color: #999;
+	font: 12px/40px Arial;
+	vertical-align: top;
+}
+
+.notice-content .book{
+	color: #333;
+}
+
+.notice-content .book:hover{
+	text-decoration: underline;
+}
+
+.content2 {
+    height: 475px;
+    background: #de9c53;
+}
+
+.content {
+	height: 475px;
+	background: #e93854;
+}
+
+.content .content-box{
+	height: 475px;
+	background: url("../img/bg1.jpg") no-repeat;
+}
+
+.content .login-box{
+	width: 348px;
+    /*height: 400px;*/
+    background: #fff;
+    /*background: #bfa;*/
+    float: right;
+    margin: 12px 0 0;
+}
+
+.login-box .login-div1{
+    width: 100%;
+    height: 40px;
+    background: #fff8f0;
+    /*padding-left: 30px;*/
+    text-align: center;
+}
+
+.login-div1 span{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../img/icon-tips.png");
+    margin: 12px 4px 0;
+    vertical-align: top;
+}
+.login-div1 p{
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+    color: #999;
+    line-height: 40px;
+}
+
+.login-box .login-div2{
+    width: 100%;
+    height: 54px;
+
+    text-align: center;
+}
+
+.login-div2 .active{
+    color: #e4393c;
+    font-weight: 700;
+}
+.login-box .login-div2 span{
+    margin: 0 44px;
+}
+
+.login-div2 p, .login-div2 a{
+    color: #666;
+    font: 18px/54px "microsoft yahei";
+    text-decoration: none;
+}
+
+.login-div2 span{
+    color: #f4f4f4;
+}
+
+.login-div3{
+    padding: 33px 0 0 22px;
+    border-top: #f4f4f4 1px solid;
+    border-bottom: #f4f4f4 1px solid;
+}
+
+.login-div3 input{
+    width: 264px;
+    height: 38px;
+    vertical-align: top;
+    outline: none;
+    border: #bdbdbd 1px solid;
+    margin-bottom: 20px;
+    text-indent: 8px;
+}
+
+.login-div3 .no-border-left{
+    border-left: none;
+}
+
+.login-div3 button{
+    display: block;
+    width: 307px;
+    height: 33px;
+    background: #e4393c;
+    color: white;
+    border-top: 1px #e85356 solid;
+    border-left: 1px #e85356 solid;
+    outline: 0 none;
+    margin: 32px 0;
+    cursor: pointer;
+    font: 20px "Microsoft Himalaya";
+}
+
+.login-div3 label{
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border: #bdbdbd 1px solid;
+}
+
+.login-div3 .user{
+    background: url("../img/pwd-icons-new.png") no-repeat;
+}
+
+.login-div3 .pwd{
+    background: url("../img/pwd-icons-new.png") no-repeat -48px 0;
+
+}
+
+.login-div3 a{
+    display: block;
+    float: right;
+    margin: 0 22px 0;
+    color: #666;
+}
+
+
+.login-div4 {
+    height: 34px;
+    background: #fcfcfc;
+    padding: 16px 22px 0;
+}
+
+.login-div4 i{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: top;
+    margin-right: 4px;
+}
+
+.login-div4 .qq{
+    background: url("../img/QQ-weixin.png") no-repeat -1px 0;
+}
+
+.login-div4 .weixin{
+    background: url("../img/QQ-weixin.png") no-repeat -20px 0;
+}
+
+.login-div4 .register-icon{
+    background: url("../img/pwd-icons-new.png") no-repeat -104px -75px;
+}
+
+.login-div4 .register{
+    float: right;
+    margin-top: 2px;
+}
+
+.login-div4 span{
+    margin: 0 14px;
+    color: #d2d2d2;
+}
+
+.footer ul{
+    margin: 22px 0 22px 77px;
+}
+
+.footer li{
+    padding: 0 15px;
+    border-left: 1px #898989 solid;
+    float: left;
+    font: 12px/1 Arial,Verdana;
+}
+
+.footer li a, .footer p{
+    color: #666;
+}
+
+.footer .no-border-left{
+    border-left: none;
+}
+
+.footer .copyright{
+    text-align: center;
+}
+
+body a:hover{
+    color: #E4393C;
+    text-decoration: underline;
+}
+
+.scan-login {
+	border-top: #f4f4f4 1px solid;
+	text-align: center;
+}
+
+.scan-login .qr-code {
+	margin: 20px auto;
+	border: 1px #f4f4f4 solid;
+	padding: 8px;
+	width: 147px
+}
+
+.scan-login .open-phone {
+	color: #666;
+	margin: 0 0 12px;
+}
+
+.link2phone, .link2phone:hover{
+	color: red;
+	text-decoration: none;
+}
+
+.open-phone span {
+	margin: 0 5px;
+}
+
+.note {
+	margin: 0 0 14px;
+}
+
+.note span {
+	margin: 0 4px;
+	display: inline-block;
+	line-height: 25px;
+	color: #999;
+	margin: 0 8px 0;
+	vertical-align: middle;
+	/* 两个inline-block 文本默认不能居中，因为默认的垂直对齐方式为vertical-align: baseline;这种对齐方式下，元素以基线为基准线对齐
+	解决方案：vertical-align: middle;这种对齐方式下，元素以中线为基准线对齐
+	*/
+}
+.note i {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 6px;
+}
+
+.note .note1 {
+	background: url("../img/qr-coagent.png") no-repeat;
+}
+
+.note .note2 {
+	background: url("../img/qr-coagent.png") no-repeat -27px 0;
+}
+
+.note .note3 {
+	background: url("../img/qr-coagent.png") no-repeat -54px 0;
+}

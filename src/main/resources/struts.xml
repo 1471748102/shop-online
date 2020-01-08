@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+<constant name="struts.devMode" value="true"></constant>
+    <package name="xfy" extends="struts-default">
+
+    <action name="Check" class="control.CheckIndex">
+        <result name="success">/CheckIndexSuc.jsp</result>
+        <result name ="error">/CheckIndexErr.jsp</result>
+        <result name="input">/index.jsp</result>
+    </action>
+
+        <action name="CheckAdmin" class="control.CheckAdmin">
+            <result name="success">/CheckAdminSuc.jsp</result>
+            <result name ="error">/CheckAdminErr.jsp</result>
+        </action>
+
+        <action name="zhuce" class="control.ZhuCe">
+            <result name="success">/ZhuceSuc.jsp</result>
+            <result name="error">/ZhuceErr.jsp</result>
+            <result name="input">/zhuce.jsp</result>
+        </action>
+
+        <action name="show" class="control.Show">
+            <result name="success">/ShowSuc.jsp</result>
+        </action>
+
+        <action name="shopshow" class="control.wareshop.WareShopShow">
+            <result name="success">/wareshop/WareShopShowSuc.jsp</result>
+        </action>
+
+        <action name="showindex" class="control.ShowIndex">
+            <result name="success">/ShowIndexSuc.jsp</result>
+        </action>
+
+        <action name="wareshopadd" class="control.wareshop.WareShopadd">
+            <result name="success">/wareshop/WareShopAddSuc.jsp</result>
+        </action>
+
+        <action name="wareadd" class="control.waresaud.WareAdd">
+            <result name="success">/waresaud/WareAddSuc.jsp</result>
+            <result name="error">/WareAddErrForExit.jsp</result>
+        </action>
+
+        <action name="wareadd2" class="control.waresaud.WareAdd2">
+            <result name="success">/opnion/addsuc.jsp</result>
+            <result name="error">/opnion/addsuc.jsp</result>
+        </action>
+
+        <action name="waredel" class="control.waresaud.WareDel">
+            <result name="success">/waresaud/WareDelSuc.jsp</result>
+            <result name="error">/waresaud/WareDelErr.jsp</result>
+        </action>
+
+        <action name="wareshopdel" class="control.wareshop.WareShopDel">
+            <result name="success">/wareshop/WareShopDelSuc.jsp</result>
+        </action>
+
+        <action name="wareshopcal" class="control.wareshop.WareShopCal">
+            <result name="success">/wareshop/WareShopCalSuc.jsp</result>
+        </action>
+
+        <action name="wareupdate" class="control.waresaud.WareUpdate">
+            <result name="success">/waresaud/WareUpdateSuc.jsp</result>
+            <result name="error">/waresaud/WareUpdateErr.jsp</result>
+        </action>
+
+        <action name="selectbynum" class="control.waresaud.WareSelect">
+            <result name="success">/waresaud/WareSelectSuc.jsp</result>
+            <result name="error">/waresaud/WareSelectErr.jsp</result>
+        </action>
+
+
+        <action name="opindex" class="control.opnion.OpIndex">
+            <result name="success">/opnion/op.jsp</result>
+        </action>
+
+        <action name="opselect" class="control.opnion.OpSelect">
+            <result name="success">/opnion/opSuc.jsp</result>
+        </action>
+
+        <action name="selectbyname" class="control.SelectByMt.SelectByName">
+            <result name="success">/SelectByMt/SelectByNameSuc.jsp</result>
+        </action>
+
+        <action name="selectbyprice" class="control.SelectByMt.SeelectByPrice">
+            <result name="success">/SelectByMt/SelectByPriceSuc.jsp</result>
+        </action>
+
+    </package>
+</struts>
