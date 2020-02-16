@@ -41,10 +41,20 @@
 8. 添加购物车功能
 9. 购物车商品结算
 
+## 主要技术
+采用JSP+Struts2开发
+
+
+| 工具   | 说明    | 官网                                                         |
+| ------ | ------- | ------------------------------------------------------------ |
+| IDEA   | 开发IDE | https://www.jetbrains.com/idea/download                      |
+| JDK    | 1.8     | https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html |
+| MySQL  | 8.0     | https://www.mysql.com/                                       |
+| Tomcat | 9.0     | http://tomcat.apache.org/                                    |
+| Gradle  | 6.1.1   | https://gradle.org/                                  |
+
+
+
 ## 详情
 
 请看设计报告.doc
-
-
-
-简单测试分支
